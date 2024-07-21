@@ -1,3 +1,8 @@
+'''this file contain Task of Develop a Python function that validates
+whether a given string is a valid email
+address. Implement checks for the format,
+including the presence of an "@" symbol and
+a domain name'''
 print("Program for Email  Validator")
 def Valid(email):
     if '@' not in email and  '.' not in email and  len(email) < 6 and 'com' not in email or 'org' not in email or "in" not in email:
